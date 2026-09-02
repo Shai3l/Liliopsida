@@ -1,29 +1,41 @@
-body {
 
-    background-color:  #a6afe5
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Sekuya&display=swap');
 
+
+
+body{
+
+    background-color:  #67be8d
+    font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
+
 H1 {
 
-    background-color: rgb(236, 198, 255) 
+    color: rgb(17, 16, 18) 
 
 }
 
 P {
 
-    background-color:  #d9a7ed
+    color:  #9d38c5
+  
+
+}
+
+
+#galeria {
+
+background-color:rgb(255, 192, 90);
+   
+   border: solid #30363d 25px; 
+   width: 70vw;
+   display: flex; 
+
 
 }
 
 .foto {
-
-width:  50%; 
-
-}
-
-#galeria {
-
-    background-color:azure;
-    width:  50%; 
-
+    width: 15%;
 }
